@@ -23,7 +23,7 @@ int main(int argc, char *argv[]){
 
         if (f_ptr == NULL) {
             printf("my-cat: cannot open file\n");
-            return 1;
+            exit(1);
         }
         
         while (fgets(buffer, sizeof(buffer), f_ptr) != NULL) {
