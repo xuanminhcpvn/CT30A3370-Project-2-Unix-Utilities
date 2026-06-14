@@ -35,6 +35,7 @@ int main(int argc, char *argv[]){
                 printf("%s",line_ptr);
             }
         }
+        printf("\n");
         free(line_ptr);
         return 0;
     }
@@ -54,7 +55,7 @@ int main(int argc, char *argv[]){
         }
         fclose(f_ptr);
     }
+    printf("\n");
     free(line_ptr);
-
     return 0;
 }

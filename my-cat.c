@@ -32,6 +32,7 @@ int main(int argc, char *argv[]){
 
         fclose(f_ptr);
     }
+    printf("\n");
     
 
     return 0;
