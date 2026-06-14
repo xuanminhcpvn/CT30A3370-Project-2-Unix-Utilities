@@ -11,6 +11,7 @@ This project implements two programs **my-cat** and **my-grep**. **My-car progra
 -my-cat works as instructed (1 point)
 
 -my-grep works as instructed (1 point)
+
 **TOTAL:= 4**
 
 ### Requirements
