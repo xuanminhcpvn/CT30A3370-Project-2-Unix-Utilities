@@ -1,6 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 
+valgrind: valgrind --leak-check=yes ./my-grep CC Makefile
+
 all: my-cat my-grep my-zip my-unzip
 
 my-cat: my-cat.c

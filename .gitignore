@@ -6,7 +6,10 @@
 *.ko
 *.obj
 *.elf
-
+my-cat
+my-grep
+my-zip
+my-unzip
 # Linker output
 *.ilk
 *.map
